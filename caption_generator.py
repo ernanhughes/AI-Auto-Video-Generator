@@ -14,7 +14,7 @@ def create_caption_images(story, words_per_caption=5):
     caption_segments = [' '.join(words[i:i + words_per_caption]) for i in range(0, len(words), words_per_caption)]
     
     caption_images = []
-    font_path = "/usr/share/fonts/truetype/liberation/LiberationSans-Regular.ttf"
+    font_path = "LiberationSans-Regular.ttf"
     font_size = 40
     font = ImageFont.truetype(font_path, font_size)
 

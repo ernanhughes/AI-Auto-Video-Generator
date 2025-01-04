@@ -15,7 +15,7 @@ def main():
     story_prompt = input("Enter a story prompt: ")
 
     story, final_story_prompt = generate_story(story_prompt)  # Update the assignment to get the final_story_prompt
-    print("Story generated successfully.")
+    print(f"Story generated successfully.\n {story} \n{final_story_prompt}")
 
     # Generate image Prompts
     image_prompts = extract_image_prompts(story)
